@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Thambi 2',
+        cursive;
+    background-color: #E4E3D3;
+}
+
+.weatherHeading {
+    text-align: center;
+    margin: 100px;
+    color: #e78888;
+    font-size: 50px;
+}
+
+.input {
+    text-align: center;
+    margin: 100px 0;
+}
+
+::placeholder {
+    color: white;
+}
+
+input[type="text"] {
+    height: 50px;
+    width: 600px;
+    background: #6D9F71;
+    font-family: 'Baloo Thambi 2',
+        cursive;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: blanchedalmond;
+}
+
+input[type="submit"] {
+    height: 50px;
+    width: 200px;
+    background: #337357;
+    font-family: "Nunito", sans-serif;
+    color: honeydew;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.display {
+    text-align: center;
+    background-color: #E4E3D3;
+    width: 900px;
+    margin-left: 330px;
+    font-size: 35px;
+    color: #2E2D4D;
+    font-family: 'Baloo Thambi 2',
+        cursive;
+}
